@@ -8,7 +8,12 @@ import java.lang.Math;
 
 public class Disease {
 
-	
+	/**
+	 * Checks if user input of population is a perfect square
+	 * 
+	 * @param num user input for population
+	 * @return
+	 */
 	public static boolean checkPerfectSquare(int num) {
 		double squareRoot = Math.sqrt(num);
 		return ((squareRoot - Math.floor(squareRoot)) == 0); 
